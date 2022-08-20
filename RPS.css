@@ -1,0 +1,61 @@
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Images/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin:0;
+  }
+  
+  .wrapper {
+    /* background: #000000; */
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 25px;
+  }
+  
+  button {
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border: 2px solid black;
+    box-shadow: -2px -2px 4px white , -2px -2px 4px black inset;
+    /* box-shadow: 2px 2px 4px rgb(0, 0, 0) inset , -2px -2px 4px black inset; */
+    transition: 1s;
+    
+  }
+  button:hover{
+    
+    background-color: rgb(102, 232, 255);
+  } 
+  #endGameButton:hover{
+    background-color: rgb(255, 251, 43);
+  }
+  
+  .resultContainer {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  
+  
